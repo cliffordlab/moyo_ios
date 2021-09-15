@@ -1,0 +1,33 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "JLx-Jw-8pL"; */
+"JLx-Jw-8pL.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Let people know you have been pulled over by police"; ObjectID = "OeQ-XG-4Qk"; */
+"OeQ-XG-4Qk.text" = "Let people know you have been pulled over by police";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "SCq-W4-TwP"; */
+"SCq-W4-TwP.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "Uvs-7Q-ehA"; */
+"Uvs-7Q-ehA.normalTitle" = "SIGN IN";
+
+/* Class = "UITextField"; placeholder = "Enter participant email or ID"; ObjectID = "XI1-w0-Elf"; */
+"XI1-w0-Elf.placeholder" = "Enter participant email or ID";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "Z00-xO-23U"; */
+"Z00-xO-23U.title" = "Home";
+
+/* Class = "UINavigationItem"; title = "Register Now"; ObjectID = "gQe-yq-ugd"; */
+"gQe-yq-ugd.title" = "Register Now";
+
+/* Class = "UINavigationItem"; title = "Sign Up"; ObjectID = "hE1-dD-JHu"; */
+"hE1-dD-JHu.title" = "Sign Up";
+
+/* Class = "UIViewController"; title = "Join Moyo"; ObjectID = "sWP-tp-UY7"; */
+"sWP-tp-UY7.title" = "Join Moyo";
+
+/* Class = "UILabel"; text = "Text Your Contacts"; ObjectID = "tp3-RU-jgK"; */
+"tp3-RU-jgK.text" = "Text Your Contacts";
+
+/* Class = "UIButton"; normalTitle = "Not a member? Register Now"; ObjectID = "vKJ-JX-9Fx"; */
+"vKJ-JX-9Fx.normalTitle" = "Not a member? Register Now";

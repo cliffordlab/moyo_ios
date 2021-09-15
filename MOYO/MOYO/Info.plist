@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>api.openweathermap.org</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>www.airnowapi.org</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Moyo would like to access your camera for photo upload of your blood pressure or food. Your photos wont be shared without your permission.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>You are agreeing for Moyo to access your Heatlth Data.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>You are agreeing for Moyo to access your Heatlth Data.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Moyo would like to use your current location to display it in the app, find nearby health choices and help determine your travel factors. It is secure and private.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Moyo would like to use your current location to display it in the app, find nearby health choices and help determine your travel factors. It is secure and private.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Moyo would like to use your current location to display it in the app, find nearby health choices and help determine your travel factors. It is secure and private.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Moyo would like to use your current location to display it in the app, find nearby health choices and help determine your travel factors. It is secure and private.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Moyo would like to access your microphone for envioromental sound recording. Your recordings wont be shared without your permission.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Moyo would like to access your microphone for envioromental sound recording. Your recordings wont be shared without your permission.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Moyo would like to access your photo gallery for photo upload. Your photos wont be shared without your permission.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Moyo would like to access your photo gallery for photo upload. Your photos wont be shared without your permission.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Moyo would like to access speech recognition </string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

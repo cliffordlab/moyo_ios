@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DepressionSurvey" representedClassName="DepressionSurvey" syncable="YES" codeGenerationType="class">
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="GSQSurvey" representedClassName="GSQSurvey" syncable="YES" codeGenerationType="class">
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SwipeSurvey" representedClassName="SwipeSurvey" syncable="YES" codeGenerationType="class">
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ZoomSurvey" representedClassName="ZoomSurvey" syncable="YES" codeGenerationType="class">
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="DepressionSurvey" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="GSQSurvey" positionX="-54" positionY="0" width="128" height="44"/>
+        <element name="SwipeSurvey" positionX="-36" positionY="18" width="128" height="44"/>
+        <element name="ZoomSurvey" positionX="-18" positionY="36" width="128" height="44"/>
+    </elements>
+</model>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rcV-0M-9wq">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Environment View Controller-->
+        <scene sceneID="eNa-wW-VlM">
+            <objects>
+                <tableViewController title="Environment" id="rcV-0M-9wq" userLabel="Environment View Controller" customClass="EnvironmentViewController" customModule="MOYO" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="162" sectionHeaderHeight="22" sectionFooterHeight="22" id="Mhs-gK-z6t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EnvironmentPageCell" rowHeight="162" id="HvZ-ev-RQV" customClass="EnvironmentPageCell" customModule="MOYO">
+                                <rect key="frame" x="0.0" y="24.5" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HvZ-ev-RQV" id="EIx-T3-8Hb">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple-watch" translatesAutoresizingMaskIntoConstraints="NO" id="1L4-fR-lNs">
+                                            <rect key="frame" x="16" y="11" width="90" height="90"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="90" id="9rE-FD-4ez"/>
+                                                <constraint firstAttribute="height" constant="90" id="wlk-eO-nC9"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="mjo-jm-uSM">
+                                            <rect key="frame" x="114" y="12" width="245" height="17"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="240" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLo-Jb-Aha">
+                                            <rect key="frame" x="114" y="29" width="245" height="122"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="fLo-Jb-Aha" firstAttribute="leading" secondItem="1L4-fR-lNs" secondAttribute="trailing" constant="8" id="H1h-lW-Krp"/>
+                                        <constraint firstItem="mjo-jm-uSM" firstAttribute="leading" secondItem="1L4-fR-lNs" secondAttribute="trailing" constant="8" id="OFX-vC-Qrn"/>
+                                        <constraint firstItem="fLo-Jb-Aha" firstAttribute="top" secondItem="mjo-jm-uSM" secondAttribute="bottom" id="Sed-WN-fgk"/>
+                                        <constraint firstItem="mjo-jm-uSM" firstAttribute="top" secondItem="EIx-T3-8Hb" secondAttribute="topMargin" constant="1" id="U3F-kI-N2d"/>
+                                        <constraint firstAttribute="topMargin" secondItem="1L4-fR-lNs" secondAttribute="top" id="YeI-T0-uMZ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="mjo-jm-uSM" secondAttribute="trailing" id="arJ-Sn-YWf"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="fLo-Jb-Aha" secondAttribute="bottom" id="cuu-ar-QFp"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="fLo-Jb-Aha" secondAttribute="trailing" id="lvu-hn-Wd8"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="1L4-fR-lNs" secondAttribute="leading" id="m7Q-fy-hAd"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="menuContent" destination="fLo-Jb-Aha" id="qOX-qW-pUP"/>
+                                    <outlet property="menuImage" destination="1L4-fR-lNs" id="Wun-Bp-bYi"/>
+                                    <outlet property="menuTitle" destination="mjo-jm-uSM" id="Ckd-zx-P1j"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rcV-0M-9wq" id="RhD-SG-CCR"/>
+                            <outlet property="delegate" destination="rcV-0M-9wq" id="ofr-i5-wwX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Environment" id="2Hf-JI-j25"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8w-dC-6Mw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="397.60000000000002" y="461.91904047976016"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple-watch" width="16" height="16"/>
+    </resources>
+</document>
