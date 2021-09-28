@@ -58,8 +58,8 @@ Code | Type | Description
 
 ```
 {
-  "participantID": 9977,
-  "password": "tester"
+  "participantID": your participant ID,
+  "password": "yourpassword"
 }
 ```
 
