@@ -38,7 +38,7 @@ d. Edit Constants.Swift file with your own URLs and endpoints
 
 Request Type | URL
 --- | ---
- POST |  https://amoss.emory.edu/loginParticipant
+ POST |  https://yourLogInURL/loginParticipant
 
 **Params:**
 
@@ -91,7 +91,7 @@ Code | Type | Description
 
 Request Type | URL
 --- | ---
-POST | https://amoss.emory.edu/upload
+POST | https://yourUploadURL/upload
 
 **Headers:**
 
@@ -120,20 +120,17 @@ Authorization: Mars fdsfsdafeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZAI6OX0.1YM
 "weekMillis": 534118400000
 ```
 
-**Example Body:** (form)
+**Folder and File Structure:** 
 
-```
-{
-  "folder: "moyoiostestdata"  // AWS bucket
-  "upload": "534118400000.mz"
-}
-```
+  Folder: yourFolder/studybucket/participantID/timestamp/  
+  File: participantID_timestamp_devicePlatform_assessmentName.extension
+
 
 **Example Response:**
 
 ```
 {
-  "success": "you have completed upload to amoss_mhealth"
+  "success": "you have completed upload"
 }
 ```
 **Privacy Policy:**
