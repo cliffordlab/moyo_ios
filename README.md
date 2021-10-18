@@ -21,7 +21,6 @@ c. Install the following pods into your podfile (pod install x)
 * pod Alamofire
 * pod Keychain Swift
 * pod SwiftCharts
-* pod KRProgressHUD
 * pod SwiftyJSON
 * pod iOSDropDown
 
