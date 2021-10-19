@@ -7,8 +7,9 @@
 - [2. Contributors](#2-contributors)
 
 # 1. Getting Started
+![dependencies](https://user-images.githubusercontent.com/10519817/137957432-8596dbf8-e3ea-4bc3-9052-e77a932bf864.png)
 
- ![moyodependencies](https://user-images.githubusercontent.com/10519817/135163814-74ab0b99-cbc3-4eef-ae86-35be373a78bf.png)
+
 System Requirements
 
 a. Install Research Kit framework
